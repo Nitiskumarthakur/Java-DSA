@@ -3,7 +3,7 @@ public class KADANS_Rule {
     public static void Max_subArray_KEDANS(int num[]){
         int MAX_Sum=Integer.MIN_VALUE;
         int currsum=0;
-
+   
         for(int i=0;i<num.length;i++){
             currsum=currsum+num[i];
             // KEDANES Algoritham.3s
